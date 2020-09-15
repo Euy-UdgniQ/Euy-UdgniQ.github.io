@@ -1,0 +1,214 @@
+body {
+    background: url(../images/bg.jpg) no-repeat center top;
+}
+.w {/* 设置内容整体宽度 */
+    width: 1056px;
+    margin: 0 auto;
+}
+/********************* 头部导航栏制作 ************/
+.nav {
+    margin-top: 59px;
+}
+.menu {
+    width: 1056px;
+    height: 83px;
+    background: url(../images/navbg.png)
+}
+.menu #li1 {
+    margin-left: 13px;
+}
+.menu #li5 {
+    margin-left: 237px;
+}
+.menu>li{/*设置一级菜单浮动，让所有一级菜单显示在一行上 */
+    float:left;
+    margin-top: 33px;
+    width: 100px;
+}
+.menu>li>a{/* 设置一级菜单项 */
+    display: block;
+    font-size:14px;
+    color:#fff;
+    height: 30px;
+    text-align: center;
+}
+.menu>li>a:hover{/* 一级菜单鼠标放上去的变化 */
+    color:#a6d141;
+}
+.menu li ul {
+    background-color: rgba(0,0,0,.3);
+    width: 100px;
+}
+.menu li ul li a{ /* 二级菜单 */
+    margin-top: 15px;
+    height: 30px;
+    line-height: 30px;
+    font-size:13px;
+    color:#fff;
+    padding:5px;
+    text-align: center;
+    display:block;
+    background: url(../images/choicebg.png) -21px 25px;
+
+}
+.menu ul{/* 隐藏二级菜单*/
+    display: none;
+    position:absolute;  
+}
+.menu>li:hover ul{/*显示二级子菜单  */
+     display: block;
+}
+.menu li ul a:hover{/* 鼠标放到二级菜单上的变化效果 */
+    color:#a6d141;
+}
+
+/********************* 内容制作 *****************/
+.context {
+    margin-top: 297px;
+    padding: 18px 14px 0 14px;
+    height: 361px;
+    background-color: rgba( 0, 0, 0, .5);
+    border-radius: 10px;
+}
+.context .w {/*整体内容宽度*/
+    height: 341px;
+}
+.part1 {/*内容区域第一大块制作*/
+    float: left;
+    width: 262px;
+    height: 342px;
+}
+.part1up{/*影城活动制作开始*/
+    height: 201px;
+    background: url(../images/part1upbg.png);
+    border-radius: 5px 5px 0 0;
+}
+.part1up h1 {
+    height: 35px;
+    line-height: 35px;
+    padding-left: 20px;
+    color: #f4d48b;
+    font-size: 14px;
+}
+.part1up ul {
+    width: 234px;
+    height: 134px;
+    padding: 5px 17px 17px 33px;
+}
+.part1up ul li {/*影城活动制作结束*/
+    height: 30px;
+    line-height: 30px;
+    list-style-image: url(../images/part1upicon.png);
+    font-size: 12px;
+    border-bottom: 1px dotted #506088;
+}
+.part1up ul li a {
+    color: #8296c7;
+}
+.part1up ul li a:hover {
+    color:#f4d48b;
+}
+.part1down {/*影片搜素制作开始*/
+    padding-top: 6px;
+    padding-left: 14px;
+    margin-top: 10px;
+    height: 131px;
+    background: url(../images/part1downbg.png) -27px;
+}
+.part1down h1 {
+    color: #f4d48b;
+    font-size: 14px;
+}
+.part1down h1 i{
+    color: #fcfbfb;
+    margin-right: 3px;
+}
+.part1down form {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 13px;
+    height: 40px;
+    width: 207px;
+    line-height: 24px;
+    text-align: justify;
+    text-align-last: justify;
+    color: #8b69a0;
+    font-size: 12px;
+}
+.part1down input {
+    background-color: #12101f;
+    border: 1px solid #2b273d;
+    color: #fff;
+}
+.part1down button {/*影片搜素制作结束*/
+    margin-top: 10px;
+    margin-left: 60px;
+    width: 53px;
+    height: 23px;
+    text-align: center;
+    text-align-last: auto;
+    background-color: #12101f;
+    border: 1px solid #2b273d;
+    color: #8b69a0;
+}
+.part2 {/*内容区域第二大块制作*/
+    padding-top: 41px;
+    padding-left: 10px;
+    float: left;
+    padding-top: px;
+    margin-left: 8px;
+    width: 522px;
+    height: 342px;
+    background: url(../images/part2bg.png);
+}
+.part3 {/*内容区域第三大块制作*/
+    float: left;
+    margin-left: 8px;
+    width: 227px;
+    height: 342px;
+    background: url(../images/part3bg.png);
+}
+.part3 ul {
+    margin-top: 45px;
+    margin-left: 9px;
+    width: 227px;
+    height: 300px;
+}
+.part3 ul li {
+    padding: 11px 0 11px 3px;
+    width: 200px;
+    height: 70px;
+    border-bottom: 1px dotted #6e6c78;
+}
+.part3 ul li:hover h3 {
+    color: #f4d48b;
+    cursor: pointer;
+}
+.part3 ul li img {
+    float: left;
+    margin-right: 7px;
+    width: 78px;
+    height: 45px;
+}
+/*文本制作*/
+.part3  p {
+    color: #8296c7;
+}
+.part3 ul li h3 {
+    margin-bottom: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    color:#ffffff;
+}
+/******************** 页尾制作 ***************/
+.part4 {
+    margin: 9px auto;
+    padding-top: 20px;
+    height: 92px;
+    width: 1638px;
+    text-align: center;
+    background: url(../images/part4bg.png) no-repeat;
+}
+.part4 a:hover {
+    cursor: pointer;
+}

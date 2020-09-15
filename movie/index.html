@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!-- 在页面中引用video-js.cs样式 -->
+    <link href="video-js-5.11.4/video-js.css" rel="stylesheet" type="text/css">
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+</head>
+
+<body>
+    <!-- 头部导航栏制作 -->
+    <div class="nav">
+        <div class="w">
+            <ul class="menu">
+                <li id="li1">
+                    <a href="#">星空首页</a>
+                </li>
+                <li>
+                    <a href="#">星空传说</a>
+                    <ul>
+                        <li><a href="#">星空传A</a></li>
+                        <li><a href="#">星空传B</a></li>
+                        <li><a href="#">星空传C</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">星空连锁</a>
+                    <ul>
+                        <li><a href="#">星锁A</a></li>
+                        <li><a href="#">星锁B</a></li>
+                        <li><a href="#">星锁C</a></li>
+                        <li><a href="#">星锁D</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">璀璨星空</a>
+                    <ul>
+                        <li><a href="#">璀璨A</a></li>
+                        <li><a href="#">璀璨B</a></li>
+                        <li><a href="#">璀璨C</a></li>
+                        <li><a href="#">璀璨D</a></li>
+                        <li><a href="#">璀璨E</a></li>
+                    </ul>
+                </li>
+                <li id="li5">
+                    <a href="#">相约星空</a>
+                    <ul>
+                        <li><a href="#">相约A</a></li>
+                        <li><a href="#">相约B</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">星空贵宾</a>
+                    <ul>
+                        <li><a href="#">星空V1</a></li>
+                        <li><a href="#">星空V2</a></li>
+                        <li><a href="#">星空V3</a></li>
+                        <li><a href="#">星空V4</a></li>
+                        <li><a href="#">星空V5</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">星空预约</a>
+                    <ul>
+                        <li><a href="#">星空A</a></li>
+                        <li><a href="#">星空B</a></li>
+                        <li><a href="#">星空C</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">星空互动</a>
+                    <ul>
+                        <li><a href="#">星互动A</a></li>
+                        <li><a href="#">星互动B</a></li>
+                        <li><a href="#">星互动C</a></li>
+                        <li><a href="#">星互动D</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 内容制作 -->
+    <div class="w">
+        <div class="context">
+            <div class="part1">
+                <div class="part1up">
+                    <h1>影城活动</h1>
+                    <ul>
+                        <li><a href="#">学生观影 礼包越看越大</a></li>
+                        <li><a href="#">超值观影 学生专享</a></li>
+                        <li><a href="#">七彩爆米花 周周新口味</a></li>
+                        <li><a href="#">情定星空 永恒长久</a></li>
+                        <li><a href="#">83男人节 观影双重礼</a></li>
+                    </ul>
+                </div>
+                <div class="part1down">
+                    <h1><i class="fa fa-search" aria-hidden="true"></i>影片搜索</h1>
+                    <form action="#">
+                        类型：<input type="text"><br>
+                        关键字：<input type="text">
+                        <button>搜索</button>
+                    </form>
+                </div>
+            </div>
+            <div class="part2">
+                <video id="video_1" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="none"
+                    width="500" height="290" poster="upload/xiaomishipin.jpg" data-setup="{}">
+                    <source src="media/xiaomi.mp4" type='video/mp4' />
+                    <track kind="captions" src="demo.captions.vtt" srclang="en" label="English">
+                    </track><!-- Tracks need an ending tag thanks to IE9 -->
+                    <track kind="subtitles" src="demo.captions.vtt" srclang="en" label="English">
+                    </track><!-- Tracks need an ending tag thanks to IE9 -->
+                </video>
+            </div>
+            <div class="part3">
+                <ul>
+                    <li>
+                        <img src="upload/part3-one.png" alt="">
+                        <h3>我的女友是九尾狐</h3>
+                        <p>离上映时间还有7天</p>
+                    </li>
+                    <li>
+                        <img src="upload/part3-two.png" alt="">
+                        <h3>恋爱通告</h3>
+                        <p>离上映时间还有14天</p>
+                    </li>
+                    <li>
+                        <img src="upload/part3-three.png" alt="">
+                        <h3>线人</h3>
+                        <p>离上映时间还有21天</p>
+                    </li>
+                    <li>
+                        <img src="upload/part3-four.png" alt="">
+                        <h3>新三国演义</h3>
+                        <p>离上映时间还有23天</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 页尾制作 -->
+
+    <div class="part4">
+        <div class="w">
+            <div class="links">
+                <a>加入收藏 </a>| <a>设为首页 </a>| <a>相约星空 </a>| <a>星空预约 </a>| <a>联络星空 </a>| <a>定位星空</a><br>
+            </div>
+            备案号：ICP备18888344
+        </div>
+    </div>
+    <!-- 在页面中引用video.js -->
+    <script src="video-js-5.11.4/video.js"></script>
+    <script type="text/javascript">
+        var myPlayer = videojs('video_1');
+        videojs("video_1").ready(function () {
+            var myPlayer = this;
+            myPlayer.play();
+        });
+    </script>
+</body>
+
+</html>
